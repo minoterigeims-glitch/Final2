@@ -26,6 +26,11 @@ header {
     gap: 20px;
 }
 
+.header-link:hover{
+    color: #D22020;
+    text-decoration: underline;
+    transition: all 0.5s ease;
+}
 .header-link {
     font-size: 20px;
     text-decoration: none;
@@ -239,7 +244,7 @@ header {
     font-family: "Albert Sans";
     font-weight: 700;
     text-align: center;
-    margin-top: 50px;
+    padding-top: 50px;
     margin-bottom: 50px;
 }
 
@@ -313,7 +318,7 @@ header {
     padding-left: 150px;
     padding-right: 150px;
     margin-top: 50px;
-    margin-left: 1100px;
+    margin-left: 1150px;
 
 }
 
@@ -411,13 +416,93 @@ header {
     font-family: "Instrument Sans";
     font-weight: 400;
     margin-left: 130px;
-    
+
 }
 
-.foto-link1{
+.foto-link1 {
     margin-right: 130px;
-    
+
 }
-.foto-link{
+
+.foto-link {
     margin-right: 20px;
+}
+
+.section4 {
+    position: relative;
+    background-color: #000000;
+    top: 0;
+    left: 0;
+    padding-bottom: 50px;
+}
+
+.posion-1,
+.posion-2 {
+    position: absolute;
+
+}
+
+.posion-1 {
+    top: 100px;
+    right: 0;
+}
+
+.posion-2 {
+    top: 0px;
+    left: 40px;
+    width: 40%;
+}
+
+.section3 {
+    background-image: url(../img/delicious-black-pasta-dish-copy-space\ 2.png);
+    padding-top: 300px;
+    padding-bottom: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.box-section3 {
+    background-color: #000000;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding-bottom: 100px;
+    padding-top: 100px;
+   
+}
+
+.h4 {
+    font-size: 20px;
+    font-family: Poppins;
+    font-weight: bold;
+    color: #D22020;
+}
+
+.h6-1 {
+    color: white;
+    font-family: Poppins;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.p4 {
+    color: white;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+  
+}
+
+.text-box-3 {
+    padding-left: 150px;
+    width: 50%;
+
+}
+
+.img-3{
+    position: absolute;
+    top: -191px;
+    left: 1153px;
 }
