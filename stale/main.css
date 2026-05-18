@@ -314,7 +314,7 @@ header {
     padding-right: 150px;
     margin-top: 50px;
     margin-left: 1100px;
-    
+
 }
 
 .img-1 {
@@ -333,11 +333,91 @@ header {
 .text-p {
     font-size: 20px;
     color: white;
-    font-family: "Albert Sans";
+    font-family: c;
     font-weight: 100;
     padding-bottom: 35px;
 }
 
-.posion-1{
-    position: r;
+
+
+
+
+.footer {
+    background-color: #000000;
+}
+
+.footer-p1 {
+    color: white;
+    font-size: 20px;
+    font-family: "Instrument Sans";
+    font-weight: 400;
+    padding-bottom: 10px;
+
+}
+
+.footer-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 150px;
+
+}
+
+.footer-ul {
+    display: flex;
+    gap: 50px;
+    margin-right: 150px;
+}
+
+.footer-a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-family: "Instrument Sans";
+    font-weight: 400;
+}
+
+.footer-img {
+    padding-bottom: 30px;
+}
+
+.footer-logo {
+    margin-left: 150px;
+}
+
+.footer-line {
+    width: 1650px;
+    background-color: white;
+    height: 3px;
+    margin: 0 auto;
+    margin-top: 30px;
+
+}
+
+.footer-box-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    padding-bottom: 60px;
+
+}
+
+
+.footer-a-2 {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Instrument Sans";
+    font-weight: 400;
+    margin-left: 130px;
+    
+}
+
+.foto-link1{
+    margin-right: 130px;
+    
+}
+.foto-link{
+    margin-right: 20px;
 }
