@@ -506,3 +506,113 @@ header {
     top: -191px;
     left: 1153px;
 }
+
+.section5{
+    background-color: #000000;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+.h1-menu{
+    color: white;
+    font-size: 40px;
+    font-family: Poppins;
+    font-weight: bold;
+    text-align: center;
+}
+
+.menu-div{
+    background-color: #D22020;
+    width: 60px;
+    height: 3px;
+}
+.img-box-manu{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    gap: 10px;
+
+}
+
+.manu-1{
+    display: flex;
+    gap: 130px;
+    
+}
+
+.section6{
+    background-color: #000000;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.h6-2{
+    color: white;
+     font-size: 15px;
+    font-family: "Poppins";
+    font-weight: 400;
+    margin-right: 15px;
+    white-space: nowrap;
+    
+}
+
+.h6-3{
+    color: white;
+    font-size: 35px;
+    font-family: Poppins;
+    font-weight: bold;
+    
+   
+    
+ 
+}
+
+.p-prise{
+    color:white;
+    font-size: 12px;
+    font-family: "Poppins";
+    font-weight: 400;
+    padding-left: 100%;
+
+}
+
+.p-6{
+    color: white;
+}
+
+.h1-line{
+    background-color: white;
+    height: 2px;
+    width: 50px;
+}
+.line-manu{
+    background-color: white;
+    height: 2px;
+    width: 100%;
+}
+.line-manu-ha{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.full-text{
+    display: flex;
+}
+.flex-full-dox{
+    display: flex;;
+    align-items: center;
+ 
+}
+
+.box-img-5{
+    margin-right: 20px;
+}
+
+.img-4{
+    width: 120%;
+}
+
