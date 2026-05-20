@@ -8,11 +8,7 @@
 header {
     background-color: #000000;
     padding: 20px 50px;
-
-
-
 }
-
 
 .header-box {
     display: flex;
@@ -31,6 +27,7 @@ header {
     text-decoration: underline;
     transition: all 0.5s ease;
 }
+
 .header-link {
     font-size: 20px;
     text-decoration: none;
@@ -46,9 +43,7 @@ header {
     padding-bottom: 15px;
     padding-left: 12px;
     padding-right: 90px;
-
 }
-
 
 .header-img {
     padding-right: 12px;
@@ -59,9 +54,7 @@ header {
     align-items: center;
     border: 1px solid white;
     border-radius: 35px;
-
 }
-
 
 .title-1 {
     background-color: #000000;
@@ -70,15 +63,11 @@ header {
     background-position: center right;
     background-size: contain;
     padding: 237px 100px;
-
 }
 
 .title-box {
     width: 50%;
-
 }
-
-
 
 .title-h {
     color: white;
@@ -485,6 +474,7 @@ header {
     font-family: Poppins;
     font-size: 45px;
     font-weight: bold;
+    
 }
 
 .p4 {
@@ -530,21 +520,39 @@ header {
 .img-box-manu{
     display: flex;
     justify-content: center;
-    justify-items: center;
+    align-items: center;
     gap: 10px;
+    padding-bottom: 20px;
 
 }
 
 .manu-1{
     display: flex;
-    gap: 130px;
+    gap: 45px;
     
+}
+
+
+.manu-img-1 {
+    width: 30%;
+    
+}
+
+
+.manu-img-1>.img-4 {
+width: 100%;
+}
+
+
+.manu-text {
+    flex: 1;
 }
 
 .section6{
     background-color: #000000;
     padding-left: 200px;
     padding-right: 200px;
+    padding-bottom: 50px;
 }
 
 .h6-2{
@@ -554,6 +562,7 @@ header {
     font-weight: 400;
     margin-right: 15px;
     white-space: nowrap;
+    text-transform: uppercase;
     
 }
 
@@ -573,7 +582,7 @@ header {
     font-size: 12px;
     font-family: "Poppins";
     font-weight: 400;
-    padding-left: 100%;
+
 
 }
 
@@ -586,10 +595,12 @@ header {
     height: 2px;
     width: 50px;
 }
+
 .line-manu{
-    background-color: white;
-    height: 2px;
-    width: 100%;
+    
+    border-bottom: 2px dotted white;
+
+    
 }
 .line-manu-ha{
     display: flex;
@@ -601,18 +612,32 @@ header {
 
 .full-text{
     display: flex;
+    align-items: center;
+    padding-bottom: 25px;
 }
 .flex-full-dox{
     display: flex;;
-    align-items: center;
+    align-items: flex-start;
  
+}
+
+.img-6 {
+    width: 10px;
 }
 
 .box-img-5{
     margin-right: 20px;
+    width: 100px;
+}
+
+.box-img-5>img{
+    width: 100%;
 }
 
 .img-4{
     width: 120%;
 }
 
+.section11{
+    background-image: url(../img/Group\ 1141.png);
+}
