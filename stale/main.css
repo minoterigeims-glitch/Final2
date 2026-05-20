@@ -22,7 +22,7 @@ header {
     gap: 20px;
 }
 
-.header-link:hover{
+.header-link:hover {
     color: #D22020;
     text-decoration: underline;
     transition: all 0.5s ease;
@@ -459,7 +459,7 @@ header {
     position: relative;
     padding-bottom: 100px;
     padding-top: 100px;
-   
+
 }
 
 .h4 {
@@ -474,7 +474,7 @@ header {
     font-family: Poppins;
     font-size: 45px;
     font-weight: bold;
-    
+
 }
 
 .p4 {
@@ -482,7 +482,7 @@ header {
     font-family: Poppins;
     font-size: 20px;
     font-weight: 400;
-  
+
 }
 
 .text-box-3 {
@@ -491,20 +491,20 @@ header {
 
 }
 
-.img-3{
+.img-3 {
     position: absolute;
     top: -191px;
     left: 1153px;
 }
 
-.section5{
+.section5 {
     background-color: #000000;
     padding-top: 50px;
     padding-bottom: 50px;
 
 }
 
-.h1-menu{
+.h1-menu {
     color: white;
     font-size: 40px;
     font-family: Poppins;
@@ -512,12 +512,13 @@ header {
     text-align: center;
 }
 
-.menu-div{
+.menu-div {
     background-color: #D22020;
     width: 60px;
     height: 3px;
 }
-.img-box-manu{
+
+.img-box-manu {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -526,21 +527,21 @@ header {
 
 }
 
-.manu-1{
+.manu-1 {
     display: flex;
     gap: 45px;
-    
+
 }
 
 
 .manu-img-1 {
     width: 30%;
-    
+
 }
 
 
 .manu-img-1>.img-4 {
-width: 100%;
+    width: 100%;
 }
 
 
@@ -548,37 +549,37 @@ width: 100%;
     flex: 1;
 }
 
-.section6{
+.section6 {
     background-color: #000000;
     padding-left: 200px;
     padding-right: 200px;
     padding-bottom: 50px;
 }
 
-.h6-2{
+.h6-2 {
     color: white;
-     font-size: 15px;
+    font-size: 15px;
     font-family: "Poppins";
     font-weight: 400;
     margin-right: 15px;
     white-space: nowrap;
     text-transform: uppercase;
-    
+
 }
 
-.h6-3{
+.h6-3 {
     color: white;
     font-size: 35px;
     font-family: Poppins;
     font-weight: bold;
-    
-   
-    
- 
+
+
+
+
 }
 
-.p-prise{
-    color:white;
+.p-prise {
+    color: white;
     font-size: 12px;
     font-family: "Poppins";
     font-weight: 400;
@@ -586,23 +587,24 @@ width: 100%;
 
 }
 
-.p-6{
+.p-6 {
     color: white;
 }
 
-.h1-line{
+.h1-line {
     background-color: white;
     height: 2px;
     width: 50px;
 }
 
-.line-manu{
-    
+.line-manu {
+
     border-bottom: 2px dotted white;
 
-    
+
 }
-.line-manu-ha{
+
+.line-manu-ha {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -610,34 +612,79 @@ width: 100%;
     margin-bottom: 20px;
 }
 
-.full-text{
+.full-text {
     display: flex;
     align-items: center;
     padding-bottom: 25px;
 }
-.flex-full-dox{
-    display: flex;;
+
+.flex-full-dox {
+    display: flex;
+    ;
     align-items: flex-start;
- 
+
 }
 
 .img-6 {
     width: 10px;
 }
 
-.box-img-5{
+.box-img-5 {
     margin-right: 20px;
     width: 100px;
 }
 
-.box-img-5>img{
+.box-img-5>img {
     width: 100%;
 }
 
-.img-4{
+.img-4 {
     width: 120%;
 }
 
-.section11{
+.section11 {
     background-image: url(../img/Group\ 1141.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 128vh;
+
+}
+
+.section11-content {
+    text-align: center;
+    color: white;
+
+
+  
+}
+
+.h1-win {
+    font-size: 70px;
+    font-family: Aladin;
+    font-weight: 400;
+
+    margin-left: 100px;
+    margin-top: 70px;
+}
+
+.h4-win {
+    font-size: 30px;
+    font-family: "Albert Sans";
+    font-weight: 400;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+
+.section12 {
+    background-color: #000000;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
