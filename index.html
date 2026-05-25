@@ -21,7 +21,7 @@
         rel="stylesheet">
     <link rel="stylesheet" href="./stale/main.css">
     <link rel="stylesheet" href="./stale/home.css">
-    <title>Document</title>
+    <title>Main</title>
 </head>
 
 <body>
@@ -38,11 +38,12 @@
                     <li class="header-text"><a class="header-link" href="./Wines.html">Wines</a></li>
                 </ul>
             </div>
-            <div class="">
+            <div class="div13">
                 <div class="search-container">
-                    <input type="text" class="search-input" placeholder="Find Great Food">
+                    <input type="text" id="menu-search-input" class="search-input" placeholder="Find Great Food">
                     <button class="search-btn">
                         <img class="header-img" src="img/Search.png" alt="">
+                    </button>
                 </div>
             </div>
     </header>
@@ -58,7 +59,7 @@
                 <div class="title-btn">
                     <div class="title-bnt-1">
                         <img class="phon-img " src="img/Frame 12.png" alt="">
-                        <a class="btn-link" href="#">Call or Book</a>
+                        <a class="btn-link" href="#5">Call or Book</a>
                     </div>
                 </div>
             </div>
@@ -223,7 +224,7 @@
         <div class="box-section3">
             <div class="text-box-3 ">
                 <h4 class="h4">discount</h4>
-                <h6 class="h6-1">Upcoming Events </h6>
+                <h6 class="h6-1" >Upcoming Events </h6>
                 <p class="p4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit
                     interdum, ac aliquet odio mattis.</p>
             </div>
@@ -237,7 +238,7 @@
         <div class="footer-box">
             <div class="footer-logo">
                 <img class="footer-img" src="img/Brastra__2_-removebg-preview 3 1.png" alt="">
-                <p class="footer-p1">Phone number</p>
+                <p class="footer-p1" id="5" >Phone number </p>
                 <p class="footer-p1">+34 911 72 07 45</p>
             </div>
             <div class="footer-text">
@@ -255,8 +256,8 @@
                 <a class="footer-a-2" href="http://">copyright © 2024 Brastra</a>
             </div>
             <div class="footer-link">
-                <a class="foto-link" href=""><img src="/img/Vector (3).png" alt=""></a>
-                <a class="foto-link1" href=""><img src="/img/Vector (1).png" alt=""></a>
+                <a class="foto-link" href="https://www.facebook.com/share/178oCNPXVY/?mibextid=wwXIfr" target="_blank"><img src="/img/Vector (3).png" alt=""></a>
+                <a class="foto-link1" href="https://www.instagram.com/minoteri_?igsh=MWxlcTN0ZG00dHBzOA%3D%3D&utm_source=qr" target="_blank"><img src="/img/Vector (1).png" alt=""></a>
             </div>
         </div>
 
@@ -264,23 +265,23 @@
 
     <script>
         document.addEventListener("DOMContentLoaded", function () {
-         
+
             const cards = document.querySelectorAll('.carts-1');
 
-           
+
             const observer = new IntersectionObserver((entries) => {
                 entries.forEach(entry => {
-                    
+
                     if (entry.isIntersecting) {
-                        entry.target.classList.add('visible'); 
-                        observer.unobserve(entry.target); 
+                        entry.target.classList.add('visible');
+                        observer.unobserve(entry.target);
                     }
                 });
             }, {
-                threshold: 0.1 
+                threshold: 0.1
             });
 
-           
+
             cards.forEach(card => {
                 observer.observe(card);
             });
@@ -289,13 +290,13 @@
     </script>
     <script>
         document.addEventListener("DOMContentLoaded", function () {
-           
+
             const elementsToWatch = document.querySelectorAll('.carts-1, .full-text, .card-13, .box-text');
 
             const observerOptions = {
                 root: null,
                 rootMargin: '0px',
-                threshold: 0.12 
+                threshold: 0.12
             };
 
             const intersectionObserver = new IntersectionObserver((entries, observer) => {
@@ -304,13 +305,13 @@
                         // Додаємо клас анімації
                         entry.target.classList.add('animated');
 
-                        
+
                         observer.unobserve(entry.target);
                     }
                 });
             }, observerOptions);
 
-            
+
             elementsToWatch.forEach(item => {
                 intersectionObserver.observe(item);
             });
@@ -318,7 +319,7 @@
     </script>
     <script>
         document.addEventListener("DOMContentLoaded", function () {
-            
+
             const elementsToWatch = document.querySelectorAll('.carts-1, .full-text, .card-13, .box-text, .text-box-3');
 
             const observerOptions = {
@@ -330,16 +331,16 @@
             const intersectionObserver = new IntersectionObserver((entries, observer) => {
                 entries.forEach(entry => {
                     if (entry.isIntersecting) {
-                        
+
                         entry.target.classList.add('animated');
 
-                        
+
                         observer.unobserve(entry.target);
                     }
                 });
             }, observerOptions);
 
-            
+
             elementsToWatch.forEach(item => {
                 intersectionObserver.observe(item);
             });
@@ -347,14 +348,14 @@
     </script>
     <script>
         document.addEventListener("DOMContentLoaded", function () {
-            
+
             const selectors = [
                 '.carts-1',
                 '.full-text',
                 '.card-13',
                 '.box-text',
                 '.text-box-3',
-                '.test' 
+                '.test'
             ];
 
             const elementsToWatch = document.querySelectorAll(selectors.join(', '));
@@ -362,22 +363,22 @@
             const observerOptions = {
                 root: null,
                 rootMargin: '0px',
-                threshold: 0.12 
+                threshold: 0.12
             };
 
             const intersectionObserver = new IntersectionObserver((entries, observer) => {
                 entries.forEach(entry => {
                     if (entry.isIntersecting) {
-                        
+
                         entry.target.classList.add('animated');
 
-                       
+
                         observer.unobserve(entry.target);
                     }
                 });
             }, observerOptions);
 
-           
+
             elementsToWatch.forEach(item => {
                 intersectionObserver.observe(item);
             });
@@ -385,7 +386,7 @@
     </script>
     <script>
         document.addEventListener("DOMContentLoaded", function () {
-           
+
             const selectors = [
                 '.carts-1',
                 '.full-text',
@@ -393,7 +394,7 @@
                 '.box-text',
                 '.text-box-3',
                 '.test',
-                '.title-text' 
+                '.title-text'
             ];
 
             const elementsToWatch = document.querySelectorAll(selectors.join(', '));
@@ -401,16 +402,16 @@
             const observerOptions = {
                 root: null,
                 rootMargin: '0px',
-                threshold: 0.1 
+                threshold: 0.1
             };
 
             const intersectionObserver = new IntersectionObserver((entries, observer) => {
                 entries.forEach(entry => {
                     if (entry.isIntersecting) {
-                      
+
                         entry.target.classList.add('animated');
 
-                        
+
                         observer.unobserve(entry.target);
                     }
                 });
@@ -421,6 +422,7 @@
             });
         });
     </script>
+
 
 
 

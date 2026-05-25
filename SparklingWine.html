@@ -22,7 +22,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Aladin&display=swap" rel="stylesheet">
-    <title>Document</title>
+    <title>Sparkling Wines</title>
     <link rel="stylesheet" href="/stale/main.css">
     <link rel="stylesheet" href="./stale/home.css">
 </head>
@@ -41,12 +41,12 @@
                 </ul>
             </div>
             <div class="header-btn">
-               <div class="search-container">
+                <div class="search-container">
                     <input type="text" class="search-input" placeholder="Find Great Food">
                     <button class="search-btn">
-                <img class="header-img" src="img/Search.png" alt="">
+                        <img class="header-img" src="img/Search.png" alt="">
+                </div>
             </div>
-        </div>
     </header>
     <section class="section11">
         <div class="section11-content">
@@ -121,7 +121,7 @@
                     <li class="footer-li"><a class="footer-a" href="index.html">Home</a></li>
                     <li class="footer-li"><a class="footer-a" href="RestaurantMenu.html">Menu</a></li>
                     <li class="footer-li"><a class="footer-a" href="Wines.html">Wines</a></li>
-                    
+
                 </ul>
             </div>
         </div>
@@ -131,8 +131,11 @@
                 <a class="footer-a-2" href="http://">copyright © 2024 Brastra</a>
             </div>
             <div class="footer-link">
-                <a class="foto-link" href=""><img src="/img/Vector (3).png" alt=""></a>
-                <a class="foto-link1" href=""><img src="/img/Vector (1).png" alt=""></a>
+                <a class="foto-link" href="https://www.facebook.com/share/178oCNPXVY/?mibextid=wwXIfr"
+                    target="_blank"><img src="/img/Vector (3).png" alt=""></a>
+                <a class="foto-link1"
+                    href="https://www.instagram.com/minoteri_?igsh=MWxlcTN0ZG00dHBzOA%3D%3D&utm_source=qr"
+                    target="_blank"><img src="/img/Vector (1).png" alt=""></a>
             </div>
         </div>
 
@@ -141,39 +144,39 @@
 
 </body>
 
-    <script>
-document.addEventListener("DOMContentLoaded", function () {
-   
-    const itemsToWatch = document.querySelectorAll('.carts-1, .full-text, .card-13');
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
 
-    const observerOptions = {
-        root: null,         
-        rootMargin: '0px',  
-        
-        threshold: 0.12     
-        
-    };
+        const itemsToWatch = document.querySelectorAll('.carts-1, .full-text, .card-13');
 
-    const intersectionObserver = new IntersectionObserver((entries, observer) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-              
-                
-                entry.target.classList.add('animated'); 
-                
-           
-                
-                observer.unobserve(entry.target); 
-            }
+        const observerOptions = {
+            root: null,
+            rootMargin: '0px',
+
+            threshold: 0.12
+
+        };
+
+        const intersectionObserver = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+
+
+                    entry.target.classList.add('animated');
+
+
+
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, observerOptions);
+
+
+
+        itemsToWatch.forEach(item => {
+            intersectionObserver.observe(item);
         });
-    }, observerOptions);
-
-  
-    
-    itemsToWatch.forEach(item => {
-        intersectionObserver.observe(item);
     });
-});
 </script>
 
 </html>
