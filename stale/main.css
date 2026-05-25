@@ -743,6 +743,17 @@ header {
 
 
 }
+body{
+    background-color: #000000;
+    
+}
+
+html {
+    scroll-behavior: smooth;
+}
+h1[id], h6[id] {
+    scroll-margin-top: 120px;
+}
 
 
 
@@ -1194,6 +1205,8 @@ header {
 
     }
 
+    
+
     .left-com {
         text-align: left;
     }
@@ -1210,20 +1223,20 @@ header {
 
 }
 
-/* Базовий стан карток: вони чекають скролу (сховані й опущені) */
+
 .carts-1 {
     opacity: 0;
     transform: translateY(50px);
     transition: opacity 0.8s ease-out, transform 0.8s ease-out;
 }
 
-/* Клас, який додасть JavaScript, коли користувач побачить картку */
+
 .carts-1.visible {
     opacity: 1;
     transform: translateY(0);
 }
 
-/* Почергова затримка, щоб картки з'являлися гарно одна за одною */
+
 .carts-1.visible:nth-child(1) {
     transition-delay: 0.1s;
 }
@@ -1240,25 +1253,25 @@ header {
     transition-delay: 0.7s;
 }
 
-/* 1. Початковий стан: картки вина невидимі та опущені вниз */
+
 .card-13 {
     opacity: 0;
     transform: translateY(60px);
 
-    /* Налаштування плавності переходу */
+  
     transition: opacity 0.8s cubic-bezier(0.25, 1, 0.5, 1),
         transform 0.8s cubic-bezier(0.25, 1, 0.5, 1);
 
     will-change: opacity, transform;
 }
 
-/* 2. Стан, коли глядач доскролив до карток і JavaScript увімкнув анімацію */
+
 .card-13.animated {
     opacity: 1;
     transform: translateY(0);
 }
 
-/* Робимо так, щоб усі картинки, заголовки та абзаци всередині .box-text ховалися за замовчуванням */
+
 .box-text > img, 
 .box-text > h3, 
 .box-text > p,
@@ -1270,7 +1283,7 @@ header {
     will-change: opacity, transform;
 }
 
-/* Коли скрипт додасть клас .animated до самого контейнера, його вміст почне з'являтися */
+
 .box-text.animated > img,
 .box-text.animated > h3,
 .box-text.animated > p,
@@ -1279,7 +1292,6 @@ header {
     transform: translateY(0);
 }
 
-/* Робимо невелику покрокову затримку для кожного елемента, щоб вони з'являлися по черзі (ефект хвилі) */
 .box-text.animated > *:nth-child(1) { transition-delay: 0.05s; }
 .box-text.animated > *:nth-child(2) { transition-delay: 0.15s; }
 .box-text.animated > *:nth-child(3) { transition-delay: 0.25s; }
@@ -1290,74 +1302,69 @@ header {
 .box-text.animated > *:nth-child(8) { transition-delay: 0.75s; }
 
 
-/* Початковий стан для блоку з акціями (схований та опущений на 45px) */
 .text-box-3 {
     opacity: 0;
     transform: translateY(45px);
     
-    /* Плавний рух із уповільненням наприкінці */
+
     transition: opacity 0.9s cubic-bezier(0.215, 0.610, 0.355, 1), 
                 transform 0.9s cubic-bezier(0.215, 0.610, 0.355, 1);
     
     will-change: opacity, transform;
 }
 
-/* Стан, коли користувач доскролив до цього блоку */
 .text-box-3.animated {
     opacity: 1;
     transform: translateY(0);
 }
 
-/* Початковий стан для блоку відгуку (схований та опущений на 45px) */
+
 .test {
     opacity: 0;
     transform: translateY(45px);
     
-    /* Плавний рух із ефектом уповільнення */
+
     transition: opacity 0.9s cubic-bezier(0.215, 0.610, 0.355, 1), 
                 transform 0.9s cubic-bezier(0.215, 0.610, 0.355, 1);
     
     will-change: opacity, transform;
 }
 
-/* Стан, коли глядач доскролив до відгуку */
+
 .test.animated {
     opacity: 1;
     transform: translateY(0);
 }
 
 
-/* Початковий стан головного блоку тексту (схований та опущений) */
 .title-text {
     opacity: 0;
     transform: translateY(40px);
     
-    /* Дуже плавна анімація для першого екрану */
+
     transition: opacity 1s cubic-bezier(0.22, 1, 0.36, 1), 
                 transform 1s cubic-bezier(0.22, 1, 0.36, 1);
     
     will-change: opacity, transform;
 }
 
-/* Стан, коли блок стає видимим */
+
 .title-text.animated {
     opacity: 1;
     transform: translateY(0);
 }
 
-/* Початковий стан для ліній та страв у меню Tapas */
+
 .full-text {
     opacity: 0;
     transform: translateY(40px);
     
-    /* Плавний рух */
+
     transition: opacity 0.8s cubic-bezier(0.25, 1, 0.5, 1), 
                 transform 0.8s cubic-bezier(0.25, 1, 0.5, 1);
     
     will-change: opacity, transform;
 }
-
-/* Стан, коли користувач доскролив до страви */
 .full-text.animated {
     opacity: 1;
     transform: translateY(0);

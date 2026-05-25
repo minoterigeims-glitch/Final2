@@ -264,23 +264,23 @@
 
     <script>
         document.addEventListener("DOMContentLoaded", function () {
-            // Знаходимо всі наші картки
+         
             const cards = document.querySelectorAll('.carts-1');
 
-            // Налаштовуємо «виглядач»
+           
             const observer = new IntersectionObserver((entries) => {
                 entries.forEach(entry => {
-                    // Якщо картку видно в зоні екрану хоча б на 10%
+                    
                     if (entry.isIntersecting) {
-                        entry.target.classList.add('visible'); // Додаємо клас анімації
-                        observer.unobserve(entry.target); // Вимикаємо стеження за цією карткою, щоб анімація не повторювалася
+                        entry.target.classList.add('visible'); 
+                        observer.unobserve(entry.target); 
                     }
                 });
             }, {
-                threshold: 0.1 // Спрацює, як тільки покажеться верхівка картки
+                threshold: 0.1 
             });
 
-            // Запускаємо стеження за кожною карткою
+           
             cards.forEach(card => {
                 observer.observe(card);
             });
@@ -289,13 +289,13 @@
     </script>
     <script>
         document.addEventListener("DOMContentLoaded", function () {
-            // Цей рядок тепер збирає абсолютно всі ваші блоки на сторінці!
+           
             const elementsToWatch = document.querySelectorAll('.carts-1, .full-text, .card-13, .box-text');
 
             const observerOptions = {
                 root: null,
                 rootMargin: '0px',
-                threshold: 0.12 // Ефект увімкнеться, коли блок на 12% зайде на екран
+                threshold: 0.12 
             };
 
             const intersectionObserver = new IntersectionObserver((entries, observer) => {
@@ -304,13 +304,13 @@
                         // Додаємо клас анімації
                         entry.target.classList.add('animated');
 
-                        // Знімаємо стеження, щоб анімація відпрацювала один раз і зафіксувалася
+                        
                         observer.unobserve(entry.target);
                     }
                 });
             }, observerOptions);
 
-            // Вмикаємо стеження за кожним об'єктом
+            
             elementsToWatch.forEach(item => {
                 intersectionObserver.observe(item);
             });
@@ -318,28 +318,28 @@
     </script>
     <script>
         document.addEventListener("DOMContentLoaded", function () {
-            // Цей рядок тепер збирає абсолютно всі блоки вашого сайту для анімації!
+            
             const elementsToWatch = document.querySelectorAll('.carts-1, .full-text, .card-13, .box-text, .text-box-3');
 
             const observerOptions = {
                 root: null,
                 rootMargin: '0px',
-                threshold: 0.12 // Спрацює, коли 12% блоку покажеться на екрані
+                threshold: 0.12
             };
 
             const intersectionObserver = new IntersectionObserver((entries, observer) => {
                 entries.forEach(entry => {
                     if (entry.isIntersecting) {
-                        // Додаємо клас animated, який запускає рух вгору
+                        
                         entry.target.classList.add('animated');
 
-                        // Вимикаємо стеження, щоб анімація не пересмикувалася при кожному скролі
+                        
                         observer.unobserve(entry.target);
                     }
                 });
             }, observerOptions);
 
-            // Запускаємо «виглядач» для кожного елемента
+            
             elementsToWatch.forEach(item => {
                 intersectionObserver.observe(item);
             });
@@ -347,14 +347,14 @@
     </script>
     <script>
         document.addEventListener("DOMContentLoaded", function () {
-            // Список усіх класів сайту, які плавно з'являються при скролі
+            
             const selectors = [
                 '.carts-1',
                 '.full-text',
                 '.card-13',
                 '.box-text',
                 '.text-box-3',
-                '.test' // Новий блок відгуку додано сюди!
+                '.test' 
             ];
 
             const elementsToWatch = document.querySelectorAll(selectors.join(', '));
@@ -362,22 +362,22 @@
             const observerOptions = {
                 root: null,
                 rootMargin: '0px',
-                threshold: 0.12 // Спрацює, коли 12% блоку з'явиться на екрані
+                threshold: 0.12 
             };
 
             const intersectionObserver = new IntersectionObserver((entries, observer) => {
                 entries.forEach(entry => {
                     if (entry.isIntersecting) {
-                        // Вмикаємо анімацію
+                        
                         entry.target.classList.add('animated');
 
-                        // Вимикаємо стеження, щоб зафіксувати елемент на екрані
+                       
                         observer.unobserve(entry.target);
                     }
                 });
             }, observerOptions);
 
-            // Запускаємо стеження за кожним об'єктом
+           
             elementsToWatch.forEach(item => {
                 intersectionObserver.observe(item);
             });
@@ -385,7 +385,7 @@
     </script>
     <script>
         document.addEventListener("DOMContentLoaded", function () {
-            // Список усіх елементів вашого сайту, які мають анімуватися
+           
             const selectors = [
                 '.carts-1',
                 '.full-text',
@@ -393,7 +393,7 @@
                 '.box-text',
                 '.text-box-3',
                 '.test',
-                '.title-text' // Новий головний блок додано сюди!
+                '.title-text' 
             ];
 
             const elementsToWatch = document.querySelectorAll(selectors.join(', '));
@@ -401,16 +401,16 @@
             const observerOptions = {
                 root: null,
                 rootMargin: '0px',
-                threshold: 0.1 // Спрацьовує швидко, щоб перший екран не затримувався
+                threshold: 0.1 
             };
 
             const intersectionObserver = new IntersectionObserver((entries, observer) => {
                 entries.forEach(entry => {
                     if (entry.isIntersecting) {
-                        // Додаємо клас animated
+                      
                         entry.target.classList.add('animated');
 
-                        // Знімаємо стеження, щоб зафіксувати елемент
+                        
                         observer.unobserve(entry.target);
                     }
                 });
