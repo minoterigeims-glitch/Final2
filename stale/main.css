@@ -1,115 +1,115 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 
 header {
-  background-color: #000000;
-  padding: 20px 50px;
+    background-color: #000000;
+    padding: 20px 50px;
 }
 
 .header-box {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .header-menu-list {
-  display: flex;
-  list-style: none;
-  gap: 20px;
+    display: flex;
+    list-style: none;
+    gap: 20px;
 }
 
 .header-link:hover {
-  color: #D22020;
-  text-decoration: underline;
-  transition: all 0.5s ease;
+    color: #D22020;
+    text-decoration: underline;
+    transition: all 0.5s ease;
 }
 
 .header-link {
-  font-size: 20px;
-  text-decoration: none;
-  color: white;
-  font-weight: regular;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: regular;
 }
 
 .header-p {
-  font-size: 20px;
-  color: #C2C2C2;
-  font-weight: medium;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  padding-left: 12px;
-  padding-right: 90px;
+    font-size: 20px;
+    color: #C2C2C2;
+    font-weight: medium;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 12px;
+    padding-right: 90px;
 }
 
 .header-img {
-  padding-right: 12px;
+    padding-right: 12px;
 }
 
 .header-btn {
-  display: flex;
-  align-items: center;
-  border: 1px solid white;
-  border-radius: 35px;
+    display: flex;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 35px;
 }
 
 .title-1 {
-  background-color: #000000;
-  background-image: url(../img/view-tasty-food-arrangement\ 1.png);
-  background-repeat: no-repeat;
-  background-position: center right;
-  background-size: contain;
-  padding: 237px 100px;
+    background-color: #000000;
+    background-image: url(../img/view-tasty-food-arrangement\ 1.png);
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: contain;
+    padding: 237px 100px;
 }
 
 .title-box {
-  width: 50%;
+    width: 50%;
 }
 
 .search-container {
-  display: flex;
-  align-items: center;
-  background-color: #000000;
-  border: 1px solid #ffffff;
-  border-radius: 50px;
-  padding: 10px 20px;
-  width: 100%;
-  max-width: 400px;
-  box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    background-color: #000000;
+    border: 1px solid #ffffff;
+    border-radius: 50px;
+    padding: 10px 20px;
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
 }
 
 
 .search-input {
-  background: transparent;
-  border: none;
-  color: #ffffff;
-  outline: none;
-  flex-grow: 1;
+    background: transparent;
+    border: none;
+    color: #ffffff;
+    outline: none;
+    flex-grow: 1;
 }
 
 .search-input::placeholder {
-  color: #a0a0a0;
+    color: #a0a0a0;
 }
 
 
 .search-btn {
-  background: none;
-  border: none;
-  color: #ffffff;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0;
+    background: none;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
 }
 
 .title-bnt-1 {
-  display: flex;
-  align-items: center;
-  padding: 5px 20px;
+    display: flex;
+    align-items: center;
+    padding: 5px 20px;
 }
 
 
@@ -119,18 +119,18 @@ header {
 
 
 .title-btn {
-  display: inline-block;
-  border: 1px solid white;
-  border-radius: 30px;
+    display: inline-block;
+    border: 1px solid white;
+    border-radius: 30px;
 }
 
 
 
 
 .title-2 {
-  background-image: url(../img/vintage-old-rustic-cutlery-dark\ 1.png);
-  background-repeat: no-repeat;
-  background-size: cover;
+    background-image: url(../img/vintage-old-rustic-cutlery-dark\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 
 
 
@@ -138,9 +138,9 @@ header {
 }
 
 .title-full {
-  display: flex;
-  justify-content: space-between;
-  align-items: end;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
 
 }
 
@@ -149,18 +149,18 @@ header {
 
 
 .title-text1 {
-  width: 40%;
-  padding-right: 120px;
-  background-color: #00000056
+    width: 40%;
+    padding-right: 120px;
+    background-color: #00000056
 }
 
 .test {
-  padding: 40px;
-  text-align: center;
+    padding: 40px;
+    text-align: center;
 }
 
 .list-ul {
-  text-align: right;
+    text-align: right;
 
 }
 
@@ -170,74 +170,63 @@ header {
 .link-li-box,
 .link-li-box1,
 .link-li-box2 {
-  display: flex;
-  justify-content: right;
-  gap: 15px;
+    display: flex;
+    justify-content: right;
+    gap: 15px;
 }
 
 
 .text-line {
-  display: flex;
-  align-items: end;
-  justify-content: center;
-  gap: 20px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    gap: 20px;
 
 }
 
 .line1 {
-  background-color: red;
-  width: 120px;
-  height: 3px;
+    background-color: red;
+    width: 120px;
+    height: 3px;
 
 }
 
 .section2 {
-  background-color: #000000;
+    background-color: #000000;
 }
 
 
 
 .list-text-img {
-  margin-top: 50px;
-  margin-bottom: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 
 .text-1 {
-  color: red;
-  font-size: 32px;
-  font-family: Prata;
-  font-weight: 400;
-  line-height: 21px;
+    color: red;
+    font-size: 32px;
+    font-family: Prata;
+    font-weight: 400;
+    line-height: 21px;
 }
 
 .top-img {
-  display: flex;
-  justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
 }
 
 .h2 {
-  color: white;
-  font-size: 40px;
-  font-family: "Albert Sans";
-  font-weight: 700;
-  text-align: center;
-  padding-top: 50px;
-  margin-bottom: 50px;
+    color: white;
+    font-size: 40px;
+    font-family: "Albert Sans";
+    font-weight: 700;
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: 50px;
 }
 
 .box-full-manu {
-<<<<<<< HEAD
-  background-color: rgb(34, 34, 34);
-  padding: 40px;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: 10px;
-  justify-content: center;
-  margin-left: 150px;
-  margin-right: 150px;
-  border-radius: 20px;
-=======
     background-color: rgb(34, 34, 34);
     padding: 40px;
     display: grid;
@@ -247,107 +236,89 @@ header {
     margin-left: 150px;
     margin-right: 150px;
     border-radius: 20px;
-    transform: translateY(-100px);
-    transition: all 1s cubic-bezier(0.16,1 0.3,1 );
->>>>>>> 25d6ea9590237a144237b4c07cc0c4411de32e6b
 
 
 
 }
-
-<<<<<<< HEAD
-/* Клас, який додасть JavaScript, коли користувач побачить картку */
-.carts-1.visible {
-    opacity: 1;
-    transform: translateY(0);
-}
-
-/* Почергова затримка, щоб картки з'являлися гарно одна за одною */
-.carts-1.visible:nth-child(1) { transition-delay: 0.1s; }
-.carts-1.visible:nth-child(2) { transition-delay: 0.3s; }
-.carts-1.visible:nth-child(3) { transition-delay: 0.5s; }
-.carts-1.visible:nth-child(4) { transition-delay: 0.7s; }
 
 .cart-img {
-  width: 100%;
+    width: 100%;
 }
-=======
->>>>>>> 30844c7a6fb306dd6e6ff69235024a40f5b326f7
 
 .carts-1 {
-  background-color: #181818;
-  text-align: center;
-  border-radius: 10px;
+    background-color: #181818;
+    text-align: center;
+    border-radius: 10px;
 
 }
 
 .cart-p {
-  font-size: 35px;
-  color: white;
-  font-family: Poppins;
-  font-weight: 500;
+    font-size: 35px;
+    color: white;
+    font-family: Poppins;
+    font-weight: 500;
 
-  margin-top: 20px;
+    margin-top: 20px;
 }
 
 .cart-pay {
-  font-size: 25px;
-  color: #D22020;
-  font-family: Poppins;
-  font-weight: bold;
+    font-size: 25px;
+    color: #D22020;
+    font-family: Poppins;
+    font-weight: bold;
 
-  margin-top: 10px;
+    margin-top: 10px;
 }
 
 .cart-btn {
-  color: white;
-  text-decoration: none;
-  font-size: 20px;
-  font-family: "Albert Sans";
-  font-weight: bold;
-  background-color: #D22020;
-  padding: 10px 30px;
-  margin-top: 10px;
-  border-radius: 5px;
-  display: inline-block;
-  margin-bottom: 15px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Albert Sans";
+    font-weight: bold;
+    background-color: #D22020;
+    padding: 10px 30px;
+    margin-top: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-bottom: 15px;
 
 }
 
 
 .box-text {
-  background-color: rgb(34, 34, 34);
-  display: inline-block;
-  text-align: center;
-  border-radius: 20px;
-  padding-top: 15px;
-  padding-bottom: 20px;
-  padding-left: 150px;
-  padding-right: 150px;
-  margin-top: 50px;
-  margin-left: 1150px;
+    background-color: rgb(34, 34, 34);
+    display: inline-block;
+    text-align: center;
+    border-radius: 20px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-top: 50px;
+    margin-left: 1150px;
 
 }
 
 .img-1 {
-  margin-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 .text-h3 {
-  color: white;
-  font-size: 30px;
-  font-family: "Albert Sans";
-  font-weight: bold;
-  margin-bottom: 5px;
+    color: white;
+    font-size: 30px;
+    font-family: "Albert Sans";
+    font-weight: bold;
+    margin-bottom: 5px;
 
 }
 
 .text-p {
-  font-size: 20px;
-  color: white;
-  font-family: c;
-  font-weight: 100;
-  padding-bottom: 35px;
+    font-size: 20px;
+    color: white;
+    font-family: c;
+    font-weight: 100;
+    padding-bottom: 35px;
 }
 
 
@@ -355,241 +326,241 @@ header {
 
 
 .footer {
-  background-color: #000000;
+    background-color: #000000;
 }
 
 .footer-p1 {
-  color: white;
-  font-size: 20px;
-  font-family: "Instrument Sans";
-  font-weight: 400;
-  padding-bottom: 10px;
+    color: white;
+    font-size: 20px;
+    font-family: "Instrument Sans";
+    font-weight: 400;
+    padding-bottom: 10px;
 
 }
 
 .footer-box {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-top: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 150px;
 
 }
 
 .footer-ul {
-  display: flex;
-  gap: 50px;
-  margin-right: 150px;
+    display: flex;
+    gap: 50px;
+    margin-right: 150px;
 }
 
 .footer-a {
-  text-decoration: none;
-  color: white;
-  font-size: 25px;
-  font-family: "Instrument Sans";
-  font-weight: 400;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-family: "Instrument Sans";
+    font-weight: 400;
 }
 
 .footer-img {
-  padding-bottom: 30px;
+    padding-bottom: 30px;
 }
 
 .footer-logo {
-  margin-left: 150px;
+    margin-left: 150px;
 }
 
 .footer-line {
-  width: 1650px;
-  background-color: white;
-  height: 3px;
-  margin: 0 auto;
-  margin-top: 30px;
+    width: 1650px;
+    background-color: white;
+    height: 3px;
+    margin: 0 auto;
+    margin-top: 30px;
 
 }
 
 .footer-box-2 {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 50px;
-  padding-bottom: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    padding-bottom: 60px;
 
 }
 
 
 .footer-a-2 {
-  color: white;
-  text-decoration: none;
-  font-size: 20px;
-  font-family: "Instrument Sans";
-  font-weight: 400;
-  margin-left: 130px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Instrument Sans";
+    font-weight: 400;
+    margin-left: 130px;
 
 }
 
 .foto-link1 {
-  margin-right: 130px;
+    margin-right: 130px;
 
 }
 
 .foto-link {
-  margin-right: 20px;
+    margin-right: 20px;
 }
 
 .section4 {
-  position: relative;
-  background-color: #000000;
-  top: 0;
-  left: 0;
-  padding-bottom: 50px;
+    position: relative;
+    background-color: #000000;
+    top: 0;
+    left: 0;
+    padding-bottom: 50px;
 }
 
 .posion-1,
 .posion-2 {
-  position: absolute;
+    position: absolute;
 
 }
 
 .posion-1 {
-  top: 100px;
-  right: 0;
+    top: 100px;
+    right: 0;
 }
 
 .posion-2 {
-  top: 0px;
-  left: 40px;
-  width: 40%;
+    top: 0px;
+    left: 40px;
+    width: 40%;
 }
 
 .section3 {
-  background-image: url(../img/delicious-black-pasta-dish-copy-space\ 2.png);
-  padding-top: 300px;
-  padding-bottom: 200px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+    background-image: url(../img/delicious-black-pasta-dish-copy-space\ 2.png);
+    padding-top: 300px;
+    padding-bottom: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
 
 .box-section3 {
-  background-color: #000000;
-  display: flex;
-  justify-content: space-between;
-  position: relative;
-  padding-bottom: 100px;
-  padding-top: 100px;
+    background-color: #000000;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding-bottom: 100px;
+    padding-top: 100px;
 
 }
 
 .h4 {
-  font-size: 20px;
-  font-family: Poppins;
-  font-weight: bold;
-  color: #D22020;
+    font-size: 20px;
+    font-family: Poppins;
+    font-weight: bold;
+    color: #D22020;
 }
 
 .h6-1 {
-  color: white;
-  font-family: Poppins;
-  font-size: 45px;
-  font-weight: bold;
+    color: white;
+    font-family: Poppins;
+    font-size: 45px;
+    font-weight: bold;
 
 }
 
 .p4 {
-  color: white;
-  font-family: Poppins;
-  font-size: 20px;
-  font-weight: 400;
+    color: white;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
 
 }
 
 .text-box-3 {
-  padding-left: 150px;
-  width: 50%;
+    padding-left: 150px;
+    width: 50%;
 
 }
 
 .img-3 {
-  position: absolute;
-  top: -191px;
-  left: 1153px;
+    position: absolute;
+    top: -191px;
+    left: 1153px;
 }
 
 .section5 {
-  background-color: #000000;
-  padding-top: 50px;
-  padding-bottom: 50px;
+    background-color: #000000;
+    padding-top: 50px;
+    padding-bottom: 50px;
 
 }
 
 .h1-menu {
-  color: white;
-  font-size: 40px;
-  font-family: Poppins;
-  font-weight: bold;
-  text-align: center;
+    color: white;
+    font-size: 40px;
+    font-family: Poppins;
+    font-weight: bold;
+    text-align: center;
 }
 
 .menu-div {
-  background-color: #D22020;
-  width: 60px;
-  height: 3px;
+    background-color: #D22020;
+    width: 60px;
+    height: 3px;
 }
 
 .img-box-manu {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 20px;
 
 }
 
 .manu-1 {
-  display: flex;
-  gap: 45px;
+    display: flex;
+    gap: 45px;
 
 }
 
 
 .manu-img-1 {
-  width: 30%;
+    width: 30%;
 
 }
 
 
 .manu-img-1>.img-4 {
-  width: 100%;
+    width: 100%;
 }
 
 
 .manu-text {
-  flex: 1;
+    flex: 1;
 }
 
 .section6 {
-  background-color: #000000;
-  padding-left: 200px;
-  padding-right: 200px;
-  padding-bottom: 50px;
+    background-color: #000000;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 50px;
 }
 
 .h6-2 {
-  color: white;
-  font-size: 15px;
-  font-family: "Poppins";
-  font-weight: 400;
-  margin-right: 15px;
-  white-space: nowrap;
-  text-transform: uppercase;
+    color: white;
+    font-size: 15px;
+    font-family: "Poppins";
+    font-weight: 400;
+    margin-right: 15px;
+    white-space: nowrap;
+    text-transform: uppercase;
 
 }
 
 .h6-3 {
-  color: white;
-  font-size: 35px;
-  font-family: Poppins;
-  font-weight: bold;
+    color: white;
+    font-size: 35px;
+    font-family: Poppins;
+    font-weight: bold;
 
 
 
@@ -597,177 +568,177 @@ header {
 }
 
 .p-prise {
-  color: white;
-  font-size: 12px;
-  font-family: "Poppins";
-  font-weight: 400;
+    color: white;
+    font-size: 12px;
+    font-family: "Poppins";
+    font-weight: 400;
 
 
 }
 
 .p-6 {
-  color: white;
+    color: white;
 }
 
 .h1-line {
-  background-color: white;
-  height: 2px;
-  width: 50px;
+    background-color: white;
+    height: 2px;
+    width: 50px;
 }
 
 .line-manu {
 
-  border-bottom: 2px dotted white;
+    border-bottom: 2px dotted white;
 
 
 }
 
 .line-manu-ha {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
 }
 
 .full-text {
-  display: flex;
-  align-items: center;
-  padding-bottom: 25px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 25px;
 }
 
 .flex-full-dox {
-  display: flex;
-  ;
-  align-items: flex-start;
+    display: flex;
+    ;
+    align-items: flex-start;
 
 }
 
 .img-6 {
-  width: 10px;
+    width: 10px;
 }
 
 .box-img-5 {
-  margin-right: 20px;
-  width: 100px;
+    margin-right: 20px;
+    width: 100px;
 }
 
 .box-img-5>img {
-  width: 100%;
+    width: 100%;
 }
 
 .img-4 {
-  width: 120%;
+    width: 120%;
 }
 
 .section11 {
-  background-image: url(../img/Group\ 1141.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  width: 100%;
+    background-image: url(../img/Group\ 1141.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-  min-height: 128vh;
+    min-height: 128vh;
 
 }
 
 .section11-content {
-  text-align: center;
-  color: white;
+    text-align: center;
+    color: white;
 
 
 
 }
 
 .h1-win {
-  font-size: 70px;
-  font-family: Aladin;
-  font-weight: 400;
+    font-size: 70px;
+    font-family: Aladin;
+    font-weight: 400;
 
-  margin-left: 100px;
-  margin-top: 70px;
+    margin-left: 100px;
+    margin-top: 70px;
 }
 
 .h4-win {
-  font-size: 30px;
-  font-family: "Albert Sans";
-  font-weight: 400;
-  margin-left: 100px;
-  margin-top: 20px;
+    font-size: 30px;
+    font-family: "Albert Sans";
+    font-weight: 400;
+    margin-left: 100px;
+    margin-top: 20px;
 }
 
 
 .section12 {
-  background-color: #000000;
-  padding-top: 50px;
-  padding-bottom: 50px;
+    background-color: #000000;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .wine-link-list {
-  display: flex;
-  justify-content: center;
-  gap: 70px;
-  margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    margin-top: 50px;
 }
 
 .wine-link {
-  color: white;
-  text-decoration: none;
-  font-size: 25px;
-  font-family: "Albert Sans";
-  font-weight: 400;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: "Albert Sans";
+    font-weight: 400;
 }
 
 .list-wine {
-  list-style-type: none;
+    list-style-type: none;
 }
 
 
 .wine-link:hover {
-  color: #D22020;
-  transition: all 0.5s ease;
+    color: #D22020;
+    transition: all 0.5s ease;
 }
 
 .footer-a:hover {
-  color: #D22020;
-  transition: all 0.5s ease;
+    color: #D22020;
+    transition: all 0.5s ease;
 }
 
 
 .section13 {
-  background-color: black;
+    background-color: black;
 }
 
 .section13-card,
 .section13-card1 {
-  display: flex;
-  justify-content: center;
-  gap: 60px;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
 
 }
 
 .card-h3 {
-  color: white;
-  text-align: center;
-  font-size: 32px;
-  font-family: "Albert Sans";
-  font-weight: 400;
-  padding-top: 20px;
+    color: white;
+    text-align: center;
+    font-size: 32px;
+    font-family: "Albert Sans";
+    font-weight: 400;
+    padding-top: 20px;
 
 }
 
 .card-p1 {
-  color: white;
-  font-size: 24px;
-  font-weight: 400;
-  font-family: "Albert Sans";
-  text-align: center;
-  padding-top: 20px;
-  padding-bottom: 50px;
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "Albert Sans";
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 50px;
 
 
 
@@ -776,201 +747,199 @@ header {
 
 
 @media (max-width: 768px) {
-  .title-h {
-    color: white;
-    font-size: 10px;
-    margin-bottom: 2%;
-    font-family: Poppins;
-  }
+    .title-h {
+        color: white;
+        font-size: 10px;
+        margin-bottom: 2%;
+        font-family: Poppins;
+    }
 
-  .section11 {
-    background-image: url(../img/Group\ 1141.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-  }
+    .section11 {
+        background-image: url(../img/Group\ 1141.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 100%;}
 
-  .title-p {
-    color: white;
-    font-size: 7px;
-    margin-bottom: 10px;
-    font-family: "Albert Sans";
-  }
+        .title-p {
+            color: white;
+            font-size: 7px;
+            margin-bottom: 10px;
+            font-family: "Albert Sans";
+        }
 
-  .phon-img {
-    width: 30%;
-  }
+        .phon-img {
+            width: 30%;
+        }
 
-  .p3 {
-    color: white;
-    font-size: 5px;
-    font-family: "Albert Sans";
+        .p3 {
+            color: white;
+            font-size: 5px;
+            font-family: "Albert Sans";
 
-  }
+        }
 
-  .link-li {
-    color: white;
-    display: flex;
-    justify-content: end;
-    font-size: 7px;
-    padding-bottom: 3%;
-    padding-left: 5%;
-    font-family: "Albert Sans";
-
-
-  }
-
-  .li-img {
-    width: 60%;
-  }
-
-  .left-com {
-    text-align: left;
-    width: 100%;
-  }
-
-  .rait-com {
-    text-align: right;
-    margin-bottom: 7%;
-    width: 20%;
-  }
-
-  .img2 {
-    width: 20%;
-  }
-
-  .img-foto1 {
-    width: 0%;
-  }
-
-  .header-box {
-    display: block;
-
-  }
-
-  .header-logo {
-    display: flex;
-    justify-content: center;
-  }
-
-  .header-link {
-    font-size: 15px;
-    text-decoration: none;
-    color: white;
-    font-weight: regular;
+        .link-li {
+            color: white;
+            display: flex;
+            justify-content: end;
+            font-size: 7px;
+            padding-bottom: 3%;
+            padding-left: 5%;
+            font-family: "Albert Sans";
 
 
+        }
 
-  }
+        .li-img {
+            width: 60%;
+        }
 
-  .header-menu-list {
-    display: flex;
-    list-style: none;
-    gap: 3%;
-    justify-content: center;
-    margin-bottom: 5%;
+        .left-com {
+            text-align: left;
+            width: 100%;
+        }
+
+        .rait-com {
+            text-align: right;
+            margin-bottom: 7%;
+            width: 20%;
+        }
+
+        .img2 {
+            width: 20%;
+        }
+
+        .img-foto1 {
+            width: 0%;
+        }
+
+        .header-box {
+            display: block;
+
+        }
+
+        .header-logo {
+            display: flex;
+            justify-content: center;
+        }
+
+        .header-link {
+            font-size: 15px;
+            text-decoration: none;
+            color: white;
+            font-weight: regular;
 
 
 
-  }
+        }
 
-  .section13-card,
-  .section13-card1 {
-    display: block;
-    text-align: center;
-
-
-
-
-  }
-
-  .search-container {
-    display: flex;
-    align-items: center;
-    background-color: #000000;
-    border: 1px solid #ffffff;
-    border-radius: 50px;
-    padding: 2% 5%;
-    width: 100%;
-    max-width: 400px;
-    box-sizing: border-box;
+        .header-menu-list {
+            display: flex;
+            list-style: none;
+            gap: 3%;
+            justify-content: center;
+            margin-bottom: 5%;
 
 
 
-  }
+        }
 
-  .header-img {
-    padding-right: 2%;
-    width: 50%;
-  }
+        .section13-card,
+        .section13-card1 {
+            display: block;
+            text-align: center;
 
-  .search-input {
-    background: transparent;
-    border: none;
-    color: #ffffff;
-    outline: none;
 
-  }
 
-  .title-1 {
-    padding: 6% 10%;
-  }
 
-  .span1 {
-    font-size: 7px;
-    font-family: "Playwrite US Traditional";
+        }
 
-    font-family: "Playwrite US Trad", cursive;
-    font-optical-sizing: auto;
-    font-weight: 100;
-    font-style: normal;
-  }
+        .search-container {
+            display: flex;
+            align-items: center;
+            background-color: #000000;
+            border: 1px solid #ffffff;
+            border-radius: 50px;
+            padding: 2% 5%;
+            width: 100%;
+            max-width: 400px;
+            box-sizing: border-box;
 
-  .btn-link {
-    color: #C2C2C2;
-    font-size: 10px;
-    text-decoration: none;
-    padding-left: 1%;
-    font-family: Poppins;
 
-  }
 
-  .title-bnt-1 {
-    display: flex;
-    align-items: center;
-    padding: 1% 1%;
-  }
+        }
 
-  .phon-img {
-    width: 20%;
-    padding-left: 1%;
-  }
+        .header-img {
+            padding-right: 2%;
+            width: 50%;
+        }
 
-  .section6 {
-    background-color: #000000;
-    padding-left: 5%;
-    padding-right: 10%;
-    padding-bottom: 50px;
+        .search-input {
+            background: transparent;
+            border: none;
+            color: #ffffff;
+            outline: none;
 
-  }
+        }
 
-  .wine-link {
-    color: white;
-    text-decoration: none;
-    font-size: 10px;
-    font-family: "Albert Sans";
-    font-weight: 400;
-  }
+        .title-1 {
+            padding: 6% 10%;
+        }
 
-  .wine-link-list {
-    display: flex;
-    justify-content: center;
-    gap: 5%;
-    margin-top: 50px;
-  }
+        .span1 {
+            font-size: 7px;
+            font-family: "Playwrite US Traditional";
 
-  .footer-box {
+            font-family: "Playwrite US Trad", cursive;
+            font-optical-sizing: auto;
+            font-weight: 100;
+            font-style: normal;
+        }
+
+        .btn-link {
+            color: #C2C2C2;
+            font-size: 10px;
+            text-decoration: none;
+            padding-left: 1%;
+            font-family: Poppins;
+
+        }
+
+        .title-bnt-1 {
+            display: flex;
+            align-items: center;
+            padding: 1% 1%;
+        }
+
+        .phon-img {
+            width: 20%;
+            padding-left: 1%;
+        }
+
+        .section6 {
+            background-color: #000000;
+            padding-left: 5%;
+            padding-right: 10%;
+            padding-bottom: 50px;
+
+        }
+
+        .wine-link {
+            color: white;
+            text-decoration: none;
+            font-size: 10px;
+            font-family: "Albert Sans";
+            font-weight: 400;
+        }
+
+        .wine-link-list {
+            display: flex;
+            justify-content: center;
+            gap: 5%;
+            margin-top: 50px;
+        }
+        .footer-box {
     display: block;
     justify-content: space-between;
     align-items: center;
@@ -978,411 +947,264 @@ header {
 
 
 
-  }
-
-  .footer-ul {
-    text-align: center;
-  }
+    }
+.footer-ul {
+   text-align: center;
+}
 }
 
 
 
-@media (min-width: 768px) and (max-width:1024px) {
-  .title-h {
-    color: white;
-    font-size: 30px;
-    margin-bottom: 2%;
-    font-family: Poppins;
-  }
+    @media (min-width: 768px) and (max-width:1024px) {
+        .title-h {
+            color: white;
+            font-size: 30px;
+            margin-bottom: 2%;
+            font-family: Poppins;
+        }
 
-  .title-p {
-    color: white;
-    font-size: 10px;
-    margin-bottom: 5%;
-    font-family: "Albert Sans";
-  }
+        .title-p {
+            color: white;
+            font-size: 10px;
+            margin-bottom: 5%;
+            font-family: "Albert Sans";
+        }
 
-  .span1 {
-    font-size: 17px;
-    font-family: "Playwrite US Traditional";
+        .span1 {
+            font-size: 17px;
+            font-family: "Playwrite US Traditional";
 
-    font-family: "Playwrite US Trad", cursive;
-    font-optical-sizing: auto;
-    font-weight: 100;
-    font-style: normal;
-  }
+            font-family: "Playwrite US Trad", cursive;
+            font-optical-sizing: auto;
+            font-weight: 100;
+            font-style: normal;
+        }
 
-  .btn-link {
-    color: #C2C2C2;
-    font-size: 10px;
-    text-decoration: none;
-    margin-left: 3%;
-    margin-right: 1%;
-    font-family: Poppins;
+        .btn-link {
+            color: #C2C2C2;
+            font-size: 10px;
+            text-decoration: none;
+            margin-left: 3%;
+            margin-right: 1%;
+            font-family: Poppins;
 
-  }
+        }
 
-  .title-bnt-1 {
-    display: flex;
-    align-items: center;
-    padding: 2% 4%;
-  }
+        .title-bnt-1 {
+            display: flex;
+            align-items: center;
+            padding: 2% 4%;
+        }
 
-  .phon-img {
-    width: 30%;
-  }
+        .phon-img {
+            width: 30%;
+        }
 
-  .p3 {
-    color: white;
-    font-size: 7px;
-    font-family: "Albert Sans";
+        .p3 {
+            color: white;
+            font-size: 7px;
+            font-family: "Albert Sans";
 
-  }
+        }
 
-  .link-li {
-    color: white;
-    display: flex;
-    justify-content: end;
-    font-size: 10px;
-    padding-bottom: 3px;
-    font-family: "Albert Sans";
-
-
-  }
-
-  .li-img {
-    width: 60%;
-  }
-
-  .left-com {
-    text-align: left;
-    width: 20%;
-  }
-
-  .rait-com {
-    text-align: right;
-    margin-bottom: 7%;
-
-  }
-
-  .img2 {
-    width: 100%;
-  }
-
-  .img-foto1 {
-    width: 80%;
-  }
+        .link-li {
+            color: white;
+            display: flex;
+            justify-content: end;
+            font-size: 10px;
+            padding-bottom: 3px;
+            font-family: "Albert Sans";
 
 
+        }
+
+        .li-img {
+            width: 60%;
+        }
+
+        .left-com {
+            text-align: left;
+            width: 20%;
+        }
+
+        .rait-com {
+            text-align: right;
+            margin-bottom: 7%;
+
+        }
+
+        .img2 {
+            width: 100%;
+        }
+
+        .img-foto1 {
+            width: 80%;
+        }
 
 
-}
-
-@media (min-width: 1024px) and (max-width: 1400px) {
-  .title-h {
-    color: white;
-    font-size: 60px;
-    margin-bottom: 2%;
-    font-family: Poppins;
-  }
-
-  .title-p {
-    color: white;
-    font-size: 20px;
-    margin-bottom: 5%;
-    font-family: "Albert Sans";
-  }
-
-  .span1 {
-    font-size: 40px;
-    font-family: "Playwrite US Traditional";
-
-    font-family: "Playwrite US Trad", cursive;
-    font-optical-sizing: auto;
-    font-weight: 100;
-    font-style: normal;
-  }
-
-  .btn-link {
-    color: #C2C2C2;
-    font-size: 15px;
-    text-decoration: none;
-    margin-left: 3%;
-    margin-right: 1%;
-    font-family: Poppins;
-
-  }
-
-  .title-bnt-1 {
-    display: flex;
-    align-items: center;
-    padding: 2% 4%;
-  }
-
-  .phon-img {
-    width: 30%;
-  }
-
-  .p3 {
-    color: white;
-    font-size: 15px;
-    font-family: "Albert Sans";
-
-  }
-
-  .link-li {
-    color: white;
-    display: flex;
-    justify-content: end;
-    font-size: 15px;
-    padding-bottom: 3%;
-    font-family: "Albert Sans";
 
 
-  }
-
-  .li-img {
-    width: 60%;
-  }
-
-  .left-com {
-    text-align: left;
-    width: 10%;
-  }
-
-  .rait-com {
-    text-align: right;
-    margin-bottom: 10%;
-
-  }
-
-  .img2 {
-    width: 100%;
-  }
-
-  .img-foto1 {
-    width: 90%;
-  }
-
-}
-
-@media (min-width: 1400px) {
-  .title-h {
-    color: white;
-    font-size: 96px;
-    margin-bottom: 2%;
-    font-family: Poppins;
-  }
-
-  .title-p {
-    color: white;
-    font-size: 20px;
-    margin-bottom: 29px;
-    font-family: "Albert Sans";
-  }
-
-  .span1 {
-    font-size: 69px;
-    font-family: "Playwrite US Traditional";
-
-    font-family: "Playwrite US Trad", cursive;
-    font-optical-sizing: auto;
-    font-weight: 100;
-    font-style: normal;
-  }
-
-  .btn-link {
-    color: #C2C2C2;
-    font-size: 20px;
-    text-decoration: none;
-    margin-left: 32px;
-    margin-right: 10px;
-    font-family: Poppins;
-
-  }
-
-  .title-bnt-1 {
-    display: flex;
-    align-items: center;
-    padding: 5px 20px;
-  }
-
-  .p3 {
-    color: white;
-    font-size: 24px;
-    font-family: "Albert Sans";
-
-  }
-
-  .link-li {
-    color: white;
-    display: flex;
-    justify-content: end;
-    font-size: 20px;
-    padding-bottom: 10px;
-    font-family: "Albert Sans";
-
-
-  }
-
-  .left-com {
-    text-align: left;
-  }
-
-  .rait-com {
-    text-align: right;
-    margin-bottom: 50px;
-  }
-
-  .img-foto1 {
-    width: 100%;
-  }
-
-
-}
-
-/* --- АДАПТИВНА ВЕРСТКА --- */
-
-@media (max-width: 1024px) {
-    /* Секція зі стравами (Grid) */
-    .box-full-manu {
-        grid-template-columns: 1fr 1fr; /* 2 колонки замість 4 */
-        margin-left: 20px;
-        margin-right: 20px;
-        padding: 20px;
     }
 
-    /* Секція "Our Special Environment" */
-    .box-text {
-        margin-left: auto;
-        margin-right: auto;
-        display: block;
-        width: 90%;
-        padding: 40px 20px;
+    @media (min-width: 1024px) and (max-width: 1400px) {
+        .title-h {
+            color: white;
+            font-size: 60px;
+            margin-bottom: 2%;
+            font-family: Poppins;
+        }
+
+        .title-p {
+            color: white;
+            font-size: 20px;
+            margin-bottom: 5%;
+            font-family: "Albert Sans";
+        }
+
+        .span1 {
+            font-size: 40px;
+            font-family: "Playwrite US Traditional";
+
+            font-family: "Playwrite US Trad", cursive;
+            font-optical-sizing: auto;
+            font-weight: 100;
+            font-style: normal;
+        }
+
+        .btn-link {
+            color: #C2C2C2;
+            font-size: 15px;
+            text-decoration: none;
+            margin-left: 3%;
+            margin-right: 1%;
+            font-family: Poppins;
+
+        }
+
+        .title-bnt-1 {
+            display: flex;
+            align-items: center;
+            padding: 2% 4%;
+        }
+
+        .phon-img {
+            width: 30%;
+        }
+
+        .p3 {
+            color: white;
+            font-size: 15px;
+            font-family: "Albert Sans";
+
+        }
+
+        .link-li {
+            color: white;
+            display: flex;
+            justify-content: end;
+            font-size: 15px;
+            padding-bottom: 3%;
+            font-family: "Albert Sans";
+
+
+        }
+
+        .li-img {
+            width: 60%;
+        }
+
+        .left-com {
+            text-align: left;
+            width: 10%;
+        }
+
+        .rait-com {
+            text-align: right;
+            margin-bottom: 10%;
+
+        }
+
+        .img2 {
+            width: 100%;
+        }
+
+        .img-foto1 {
+            width: 90%;
+        }
+
     }
 
-    .posion-1, .posion-2 {
-        display: none; /* Ховаємо декоративні елементи, що перекривають текст */
-    }
+    @media (min-width: 1400px) {
+        .title-h {
+            color: white;
+            font-size: 96px;
+            margin-bottom: 2%;
+            font-family: Poppins;
+        }
 
-    /* Секція зі знижкою */
-    .box-section3 {
-        flex-direction: column;
-        padding-top: 50px;
-        padding-bottom: 50px;
-    }
+        .title-p {
+            color: white;
+            font-size: 20px;
+            margin-bottom: 29px;
+            font-family: "Albert Sans";
+        }
 
-    .text-box-3 {
-        width: 100%;
-        padding-left: 20px;
-        padding-right: 20px;
-        text-align: center;
-    }
+        .span1 {
+            font-size: 69px;
+            font-family: "Playwrite US Traditional";
 
-    .img-3 {
-        position: static;
-        width: 100%;
-        margin-top: 20px;
-    }
-}
+            font-family: "Playwrite US Trad", cursive;
+            font-optical-sizing: auto;
+            font-weight: 100;
+            font-style: normal;
+        }
 
-@media (max-width: 768px) {
-    /* Header */
-    .header-box {
-        flex-direction: column;
-        gap: 20px;
-    }
+        .btn-link {
+            color: #C2C2C2;
+            font-size: 20px;
+            text-decoration: none;
+            margin-left: 32px;
+            margin-right: 10px;
+            font-family: Poppins;
 
-    .header-menu-list {
-        padding: 0;
-    }
+        }
 
-    /* Головний екран */
-    .title-1 {
-        padding: 100px 20px;
-        background-size: cover;
-        background-position: center;
-        text-align: center;
-    }
+        .title-bnt-1 {
+            display: flex;
+            align-items: center;
+            padding: 5px 20px;
+        }
 
-    .title-box {
-        width: 100%;
-    }
+        .p3 {
+            color: white;
+            font-size: 24px;
+            font-family: "Albert Sans";
 
-    .title-h {
-        font-size: 36px !important;
-    }
+        }
 
-    .span1 {
-        font-size: 24px !important;
-    }
+        .link-li {
+            color: white;
+            display: flex;
+            justify-content: end;
+            font-size: 20px;
+            padding-bottom: 10px;
+            font-family: "Albert Sans";
 
-    /* Секція "Welcome" */
-    .title-full {
-        flex-direction: column;
-        align-items: center;
-    }
 
-    .title-text1 {
-        width: 100%;
-        padding-right: 0;
-    }
+        }
 
-    .img-foto1 {
-        display: none; /* Ховаємо велике фото на мобільних для економії місця */
-    }
+        .left-com {
+            text-align: left;
+        }
 
-    /* Меню страв */
-    .box-full-manu {
-        grid-template-columns: 1fr; /* 1 колонка */
-    }
+        .rait-com {
+            text-align: right;
+            margin-bottom: 50px;
+        }
 
-    .cart-p {
-        font-size: 24px;
-    }
+        .img-foto1 {
+            width: 100%;
+        }
 
-    /* Футер */
-    .footer-box {
-        flex-direction: column;
-        text-align: center;
-        padding-top: 50px;
-    }
 
-    .footer-logo {
-        margin-left: 0;
-        margin-bottom: 30px;
     }
-
-    .footer-ul {
-        margin-right: 0;
-        flex-direction: column;
-        gap: 15px;
-    }
-
-    .footer-line {
-        width: 90%;
-    }
-
-    .footer-box-2 {
-        flex-direction: column;
-        gap: 20px;
-    }
-
-    .footer-a-2 {
-        margin-left: 0;
-    }
-
-    .foto-link1 {
-        margin-right: 0;
-    }
-}
-
-@media (max-width: 480px) {
-    .title-h {
-        font-size: 28px !important;
-    }
-    
-    .search-container {
-        max-width: 100%;
-    }
-}
