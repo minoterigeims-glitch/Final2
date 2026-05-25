@@ -254,13 +254,8 @@ header {
 
 
 }
-/* Базовий стан карток: вони чекають скролу (сховані й опущені) */
-.carts-1 {
-    opacity: 0;
-    transform: translateY(50px);
-    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
-}
 
+<<<<<<< HEAD
 /* Клас, який додасть JavaScript, коли користувач побачить картку */
 .carts-1.visible {
     opacity: 1;
@@ -276,6 +271,8 @@ header {
 .cart-img {
   width: 100%;
 }
+=======
+>>>>>>> 30844c7a6fb306dd6e6ff69235024a40f5b326f7
 
 .carts-1 {
   background-color: #181818;
