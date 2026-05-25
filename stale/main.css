@@ -69,317 +69,50 @@ header {
     width: 50%;
 }
 
-@media (max-width: 768px) {
-    .title-h {
-        color: white;
-        font-size: 10px;
-        margin-bottom: 2%;
-        font-family: Poppins;
-    }
-
-    .title-p {
-        color: white;
-        font-size: 7px;
-        margin-bottom: 2px;
-        font-family: "Albert Sans";
-    }
-
-    .phon-img {
-        width: 30%;
-    }
-
-    .p3 {
-        color: white;
-        font-size: 5px;
-        font-family: "Albert Sans";
-
-    }
-
-    .link-li {
-        color: white;
-        display: flex;
-        justify-content: end;
-        font-size: 7px;
-        padding-bottom: 3%;
-        font-family: "Albert Sans";
-
-
-    }
-
-    .li-img {
-        width: 60%;
-    }
-
-    .left-com {
-        text-align: left;
-        width: 100%;
-    }
-
-    .rait-com {
-        text-align: right;
-        margin-bottom: 7%;
-        width: 20%;
-    }
-
-    .img2 {
-        width: 20%;
-    }
-
-    .img-foto1 {
-    width: 70%;
-}
-
-
-}
-
-@media (min-width: 768px) and (max-width:1024px) {
-    .title-h {
-        color: white;
-        font-size: 30px;
-        margin-bottom: 2%;
-        font-family: Poppins;
-    }
-
-    .title-p {
-        color: white;
-        font-size: 10px;
-        margin-bottom: 5%;
-        font-family: "Albert Sans";
-    }
-
-    .span1 {
-        font-size: 17px;
-        font-family: "Playwrite US Traditional";
-
-        font-family: "Playwrite US Trad", cursive;
-        font-optical-sizing: auto;
-        font-weight: 100;
-        font-style: normal;
-    }
-
-    .btn-link {
-        color: #C2C2C2;
-        font-size: 10px;
-        text-decoration: none;
-        margin-left: 3%;
-        margin-right: 1%;
-        font-family: Poppins;
-
-    }
-
-    .title-bnt-1 {
-        display: flex;
-        align-items: center;
-        padding: 2% 4%;
-    }
-
-    .phon-img {
-        width: 30%;
-    }
-
-    .p3 {
-        color: white;
-        font-size: 7px;
-        font-family: "Albert Sans";
-
-    }
-
-    .link-li {
-        color: white;
-        display: flex;
-        justify-content: end;
-        font-size: 10px;
-        padding-bottom: 3px;
-        font-family: "Albert Sans";
-
-
-    }
-
-    .li-img {
-        width: 60%;
-    }
-
-    .left-com {
-        text-align: left;
-        width: 20%;
-    }
-
-    .rait-com {
-        text-align: right;
-        margin-bottom: 7%;
-      
-    }
-
-    .img2 {
-        width: 100%;
-    }
-    .img-foto1 {
-    width: 80%;
-}
-
-
-
-}
-
-@media (min-width: 1024px) and (max-width: 1400px) {
-    .title-h {
-        color: white;
-        font-size: 60px;
-        margin-bottom: 2%;
-        font-family: Poppins;
-    }
-
-    .title-p {
-        color: white;
-        font-size: 20px;
-        margin-bottom: 5%;
-        font-family: "Albert Sans";
-    }
-
-    .span1 {
-        font-size: 40px;
-        font-family: "Playwrite US Traditional";
-
-        font-family: "Playwrite US Trad", cursive;
-        font-optical-sizing: auto;
-        font-weight: 100;
-        font-style: normal;
-    }
-
-    .btn-link {
-        color: #C2C2C2;
-        font-size: 15px;
-        text-decoration: none;
-        margin-left: 3%;
-        margin-right: 1%;
-        font-family: Poppins;
-
-    }
-
-    .title-bnt-1 {
-        display: flex;
-        align-items: center;
-        padding: 2% 4%;
-    }
-
-    .phon-img {
-        width: 30%;
-    }
-
-    .p3 {
-        color: white;
-        font-size: 15px;
-        font-family: "Albert Sans";
-
-    }
-
-    .link-li {
-        color: white;
-        display: flex;
-        justify-content: end;
-        font-size: 15px;
-        padding-bottom: 3%;
-        font-family: "Albert Sans";
-
-
-    }
-
-    .li-img {
-        width: 60%;
-    }
-
-    .left-com {
-        text-align: left;
-        width: 10%;
-    }
-
-    .rait-com {
-        text-align: right;
-        margin-bottom: 10%;
-       
-    }
-
-    .img2 {
-        width: 100%;
-    }
-    .img-foto1 {
-    width: 90%;
-}
-
-}
-
-@media (min-width: 1400px) {
-    .title-h {
-        color: white;
-        font-size: 96px;
-        margin-bottom: 2%;
-        font-family: Poppins;
-    }
-
-    .title-p {
-        color: white;
-        font-size: 20px;
-        margin-bottom: 29px;
-        font-family: "Albert Sans";
-    }
-
-    .span1 {
-        font-size: 69px;
-        font-family: "Playwrite US Traditional";
-
-        font-family: "Playwrite US Trad", cursive;
-        font-optical-sizing: auto;
-        font-weight: 100;
-        font-style: normal;
-    }
-
-    .btn-link {
-        color: #C2C2C2;
-        font-size: 20px;
-        text-decoration: none;
-        margin-left: 32px;
-        margin-right: 10px;
-        font-family: Poppins;
-
-    }
-
-    .title-bnt-1 {
-        display: flex;
-        align-items: center;
-        padding: 5px 20px;
-    }
-
-    .p3 {
-        color: white;
-        font-size: 24px;
-        font-family: "Albert Sans";
-
-    }
-
-    .link-li {
-        color: white;
-        display: flex;
-        justify-content: end;
-        font-size: 20px;
-        padding-bottom: 10px;
-        font-family: "Albert Sans";
-
-
-    }
-
-    .left-com {
-        text-align: left;
-    }
-
-    .rait-com {
-        text-align: right;
-        margin-bottom: 50px;
-    }
-    .img-foto1 {
+.search-container {
+    display: flex;
+    align-items: center;
+    background-color: #000000;
+    border: 1px solid #ffffff;
+    border-radius: 50px;
+    padding: 10px 20px;
     width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
 }
 
+
+.search-input {
+    background: transparent;
+    border: none;
+    color: #ffffff;
+    outline: none;
+    flex-grow: 1;
 }
+
+.search-input::placeholder {
+    color: #a0a0a0;
+}
+
+
+.search-btn {
+    background: none;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+.title-bnt-1 {
+    display: flex;
+    align-items: center;
+    padding: 5px 20px;
+}
+
+
 
 
 
@@ -391,11 +124,7 @@ header {
     border-radius: 30px;
 }
 
-.title-bnt-1 {
-    display: flex;
-    align-items: center;
-    padding: 5px 20px;
-}
+
 
 
 .title-2 {
@@ -1017,39 +746,465 @@ header {
 
 
 
-.search-container {
-    display: inline-flex;
+@media (max-width: 768px) {
+    .title-h {
+        color: white;
+        font-size: 10px;
+        margin-bottom: 2%;
+        font-family: Poppins;
+    }
+
+    .section11 {
+        background-image: url(../img/Group\ 1141.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 100%;}
+
+        .title-p {
+            color: white;
+            font-size: 7px;
+            margin-bottom: 10px;
+            font-family: "Albert Sans";
+        }
+
+        .phon-img {
+            width: 30%;
+        }
+
+        .p3 {
+            color: white;
+            font-size: 5px;
+            font-family: "Albert Sans";
+
+        }
+
+        .link-li {
+            color: white;
+            display: flex;
+            justify-content: end;
+            font-size: 7px;
+            padding-bottom: 3%;
+            padding-left: 5%;
+            font-family: "Albert Sans";
+
+
+        }
+
+        .li-img {
+            width: 60%;
+        }
+
+        .left-com {
+            text-align: left;
+            width: 100%;
+        }
+
+        .rait-com {
+            text-align: right;
+            margin-bottom: 7%;
+            width: 20%;
+        }
+
+        .img2 {
+            width: 20%;
+        }
+
+        .img-foto1 {
+            width: 0%;
+        }
+
+        .header-box {
+            display: block;
+
+        }
+
+        .header-logo {
+            display: flex;
+            justify-content: center;
+        }
+
+        .header-link {
+            font-size: 15px;
+            text-decoration: none;
+            color: white;
+            font-weight: regular;
+
+
+
+        }
+
+        .header-menu-list {
+            display: flex;
+            list-style: none;
+            gap: 3%;
+            justify-content: center;
+            margin-bottom: 5%;
+
+
+
+        }
+
+        .section13-card,
+        .section13-card1 {
+            display: block;
+            text-align: center;
+
+
+
+
+        }
+
+        .search-container {
+            display: flex;
+            align-items: center;
+            background-color: #000000;
+            border: 1px solid #ffffff;
+            border-radius: 50px;
+            padding: 2% 5%;
+            width: 100%;
+            max-width: 400px;
+            box-sizing: border-box;
+
+
+
+        }
+
+        .header-img {
+            padding-right: 2%;
+            width: 50%;
+        }
+
+        .search-input {
+            background: transparent;
+            border: none;
+            color: #ffffff;
+            outline: none;
+
+        }
+
+        .title-1 {
+            padding: 6% 10%;
+        }
+
+        .span1 {
+            font-size: 7px;
+            font-family: "Playwrite US Traditional";
+
+            font-family: "Playwrite US Trad", cursive;
+            font-optical-sizing: auto;
+            font-weight: 100;
+            font-style: normal;
+        }
+
+        .btn-link {
+            color: #C2C2C2;
+            font-size: 10px;
+            text-decoration: none;
+            padding-left: 1%;
+            font-family: Poppins;
+
+        }
+
+        .title-bnt-1 {
+            display: flex;
+            align-items: center;
+            padding: 1% 1%;
+        }
+
+        .phon-img {
+            width: 20%;
+            padding-left: 1%;
+        }
+
+        .section6 {
+            background-color: #000000;
+            padding-left: 5%;
+            padding-right: 10%;
+            padding-bottom: 50px;
+
+        }
+
+        .wine-link {
+            color: white;
+            text-decoration: none;
+            font-size: 10px;
+            font-family: "Albert Sans";
+            font-weight: 400;
+        }
+
+        .wine-link-list {
+            display: flex;
+            justify-content: center;
+            gap: 5%;
+            margin-top: 50px;
+        }
+        .footer-box {
+    display: block;
+    justify-content: space-between;
     align-items: center;
-    background-color: #000000;
-    border: 1px solid #ffffff;
-    border-radius: 50px;
-    padding: 10px 20px;
-    width: 100%;
-    max-width: 400px;
-    box-sizing: border-box;
+    padding-top: 150px;
+
+
+
+    }
+.footer-ul {
+   text-align: center;
+}
 }
 
 
-.search-input {
-    background: transparent;
-    border: none;
-    color: #ffffff;
-    outline: none;
-    flex-grow: 1;
-}
 
-.search-input::placeholder {
-    color: #a0a0a0;
-}
+    @media (min-width: 768px) and (max-width:1024px) {
+        .title-h {
+            color: white;
+            font-size: 30px;
+            margin-bottom: 2%;
+            font-family: Poppins;
+        }
+
+        .title-p {
+            color: white;
+            font-size: 10px;
+            margin-bottom: 5%;
+            font-family: "Albert Sans";
+        }
+
+        .span1 {
+            font-size: 17px;
+            font-family: "Playwrite US Traditional";
+
+            font-family: "Playwrite US Trad", cursive;
+            font-optical-sizing: auto;
+            font-weight: 100;
+            font-style: normal;
+        }
+
+        .btn-link {
+            color: #C2C2C2;
+            font-size: 10px;
+            text-decoration: none;
+            margin-left: 3%;
+            margin-right: 1%;
+            font-family: Poppins;
+
+        }
+
+        .title-bnt-1 {
+            display: flex;
+            align-items: center;
+            padding: 2% 4%;
+        }
+
+        .phon-img {
+            width: 30%;
+        }
+
+        .p3 {
+            color: white;
+            font-size: 7px;
+            font-family: "Albert Sans";
+
+        }
+
+        .link-li {
+            color: white;
+            display: flex;
+            justify-content: end;
+            font-size: 10px;
+            padding-bottom: 3px;
+            font-family: "Albert Sans";
 
 
-.search-btn {
-    background: none;
-    border: none;
-    color: #ffffff;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0;
-}
+        }
+
+        .li-img {
+            width: 60%;
+        }
+
+        .left-com {
+            text-align: left;
+            width: 20%;
+        }
+
+        .rait-com {
+            text-align: right;
+            margin-bottom: 7%;
+
+        }
+
+        .img2 {
+            width: 100%;
+        }
+
+        .img-foto1 {
+            width: 80%;
+        }
+
+
+
+
+    }
+
+    @media (min-width: 1024px) and (max-width: 1400px) {
+        .title-h {
+            color: white;
+            font-size: 60px;
+            margin-bottom: 2%;
+            font-family: Poppins;
+        }
+
+        .title-p {
+            color: white;
+            font-size: 20px;
+            margin-bottom: 5%;
+            font-family: "Albert Sans";
+        }
+
+        .span1 {
+            font-size: 40px;
+            font-family: "Playwrite US Traditional";
+
+            font-family: "Playwrite US Trad", cursive;
+            font-optical-sizing: auto;
+            font-weight: 100;
+            font-style: normal;
+        }
+
+        .btn-link {
+            color: #C2C2C2;
+            font-size: 15px;
+            text-decoration: none;
+            margin-left: 3%;
+            margin-right: 1%;
+            font-family: Poppins;
+
+        }
+
+        .title-bnt-1 {
+            display: flex;
+            align-items: center;
+            padding: 2% 4%;
+        }
+
+        .phon-img {
+            width: 30%;
+        }
+
+        .p3 {
+            color: white;
+            font-size: 15px;
+            font-family: "Albert Sans";
+
+        }
+
+        .link-li {
+            color: white;
+            display: flex;
+            justify-content: end;
+            font-size: 15px;
+            padding-bottom: 3%;
+            font-family: "Albert Sans";
+
+
+        }
+
+        .li-img {
+            width: 60%;
+        }
+
+        .left-com {
+            text-align: left;
+            width: 10%;
+        }
+
+        .rait-com {
+            text-align: right;
+            margin-bottom: 10%;
+
+        }
+
+        .img2 {
+            width: 100%;
+        }
+
+        .img-foto1 {
+            width: 90%;
+        }
+
+    }
+
+    @media (min-width: 1400px) {
+        .title-h {
+            color: white;
+            font-size: 96px;
+            margin-bottom: 2%;
+            font-family: Poppins;
+        }
+
+        .title-p {
+            color: white;
+            font-size: 20px;
+            margin-bottom: 29px;
+            font-family: "Albert Sans";
+        }
+
+        .span1 {
+            font-size: 69px;
+            font-family: "Playwrite US Traditional";
+
+            font-family: "Playwrite US Trad", cursive;
+            font-optical-sizing: auto;
+            font-weight: 100;
+            font-style: normal;
+        }
+
+        .btn-link {
+            color: #C2C2C2;
+            font-size: 20px;
+            text-decoration: none;
+            margin-left: 32px;
+            margin-right: 10px;
+            font-family: Poppins;
+
+        }
+
+        .title-bnt-1 {
+            display: flex;
+            align-items: center;
+            padding: 5px 20px;
+        }
+
+        .p3 {
+            color: white;
+            font-size: 24px;
+            font-family: "Albert Sans";
+
+        }
+
+        .link-li {
+            color: white;
+            display: flex;
+            justify-content: end;
+            font-size: 20px;
+            padding-bottom: 10px;
+            font-family: "Albert Sans";
+
+
+        }
+
+        .left-com {
+            text-align: left;
+        }
+
+        .rait-com {
+            text-align: right;
+            margin-bottom: 50px;
+        }
+
+        .img-foto1 {
+            width: 100%;
+        }
+
+
+    }
