@@ -139,4 +139,34 @@
 
 </body>
 
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    // Збираємо докупи всі елементи сайту, які мають плавно з'являтися
+    const itemsToWatch = document.querySelectorAll('.carts-1, .full-text, .card-13');
+
+    const observerOptions = {
+        root: null,         // Стежимо відносно вікна браузера
+        rootMargin: '0px',  // Без додаткових відступів
+        threshold: 0.12     // Анімація спрацює, коли 12% картки з'явиться на екрані
+    };
+
+    const intersectionObserver = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                // Додаємо клас, який запускає CSS-анімацію
+                entry.target.classList.add('animated'); 
+                
+                // Перестаємо стежити за елементом, щоб анімація не програвалася повторно при кожному скролі
+                observer.unobserve(entry.target); 
+            }
+        });
+    }, observerOptions);
+
+    // Запускаємо «виглядач» для кожного знайденого елемента
+    itemsToWatch.forEach(item => {
+        intersectionObserver.observe(item);
+    });
+});
+</script>
+
 </html>

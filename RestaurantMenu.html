@@ -731,4 +731,44 @@
     </footer>
 </body>
 
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    // Список усіх класів, які мають магічно з'являтися при скролі
+    const selectors = [
+        '.carts-1', 
+        '.full-text', 
+        '.card-13', 
+        '.box-text', 
+        '.text-box-3', 
+        '.test',
+        '.title-text'
+    ];
+
+    const elementsToWatch = document.querySelectorAll(selectors.join(', '));
+
+    const observerOptions = {
+        root: null,
+        rootMargin: '0px',
+        threshold: 0.12 // Спрацює, коли 12% елемента з'явиться на екрані
+    };
+
+    const intersectionObserver = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                // Додаємо клас animated для запуску CSS анімації
+                entry.target.classList.add('animated'); 
+                
+                // Вимикаємо стеження за цим елементом
+                observer.unobserve(entry.target); 
+            }
+        });
+    }, observerOptions);
+
+    // Запускаємо стеження за кожним об'єктом
+    elementsToWatch.forEach(item => {
+        intersectionObserver.observe(item);
+    });
+});
+</script>
+
 </html>
